@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-ndf/static/css/main.ebe1f779.chunk.css",
+    "main.js": "/react-ndf/static/js/main.66a7f13f.chunk.js",
+    "main.js.map": "/react-ndf/static/js/main.66a7f13f.chunk.js.map",
+    "runtime-main.js": "/react-ndf/static/js/runtime-main.deeb74f0.js",
+    "runtime-main.js.map": "/react-ndf/static/js/runtime-main.deeb74f0.js.map",
+    "static/js/2.1e4440c1.chunk.js": "/react-ndf/static/js/2.1e4440c1.chunk.js",
+    "static/js/2.1e4440c1.chunk.js.map": "/react-ndf/static/js/2.1e4440c1.chunk.js.map",
+    "static/js/3.6a60e49b.chunk.js": "/react-ndf/static/js/3.6a60e49b.chunk.js",
+    "static/js/3.6a60e49b.chunk.js.map": "/react-ndf/static/js/3.6a60e49b.chunk.js.map",
+    "index.html": "/react-ndf/index.html",
+    "static/css/main.ebe1f779.chunk.css.map": "/react-ndf/static/css/main.ebe1f779.chunk.css.map",
+    "static/js/2.1e4440c1.chunk.js.LICENSE.txt": "/react-ndf/static/js/2.1e4440c1.chunk.js.LICENSE.txt",
+    "static/media/Akshata salgaonkar Program manager.c94184eb.jpeg": "/react-ndf/static/media/Akshata salgaonkar Program manager.c94184eb.jpeg",
+    "static/media/Gopal Bhagwat.7c86eda4.jpeg": "/react-ndf/static/media/Gopal Bhagwat.7c86eda4.jpeg",
+    "static/media/Sagar kamble.bbc4a9a3.jpeg": "/react-ndf/static/media/Sagar kamble.bbc4a9a3.jpeg",
+    "static/media/Sanjay mutha.9c002a37.jpeg": "/react-ndf/static/media/Sanjay mutha.9c002a37.jpeg",
+    "static/media/App.css": "/react-ndf/static/media/back2.c9a1de65.jpg",
+    "static/media/collage.2b94e1e6.jpeg": "/react-ndf/static/media/collage.2b94e1e6.jpeg",
+    "static/media/collage.fbe2d5bd.png": "/react-ndf/static/media/collage.fbe2d5bd.png",
+    "static/media/kid1.f7a90438.jpeg": "/react-ndf/static/media/kid1.f7a90438.jpeg",
+    "static/media/kid2.5b7c28c8.jpeg": "/react-ndf/static/media/kid2.5b7c28c8.jpeg",
+    "static/media/kid3.6d309610.jpeg": "/react-ndf/static/media/kid3.6d309610.jpeg",
+    "static/media/kid4.4cc5343e.jpeg": "/react-ndf/static/media/kid4.4cc5343e.jpeg",
+    "static/media/mission.be2fda66.png": "/react-ndf/static/media/mission.be2fda66.png",
+    "static/media/ngo-logo-full-high.44a6c1ba.jpg": "/react-ndf/static/media/ngo-logo-full-high.44a6c1ba.jpg",
+    "static/media/vision.b5eb3c36.png": "/react-ndf/static/media/vision.b5eb3c36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.deeb74f0.js",
+    "static/js/2.1e4440c1.chunk.js",
+    "static/css/main.ebe1f779.chunk.css",
+    "static/js/main.66a7f13f.chunk.js"
+  ]
+}
