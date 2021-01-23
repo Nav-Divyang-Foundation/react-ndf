@@ -35,7 +35,7 @@ function App() {
         <div class="homes container">
           <div>
             <div class="logo">
-              <img src={logo} />
+              <img src={logo} alt="nav divyang foundation logo" />
             </div>
             <h1 style={{visibility: "hidden"}}>Nav Divyang Foundation</h1>
             <h1 style={{fontSize: '40px'}}><span style={{color: '#FBD125'}}>N</span><span style={{color: "#FBC725"}}>A</span><span
