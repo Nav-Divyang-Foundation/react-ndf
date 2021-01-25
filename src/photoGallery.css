@@ -1,0 +1,9 @@
+.photo-gallery-container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .photo-gallery-container {
+        text-align: center;
+    }   
+}
