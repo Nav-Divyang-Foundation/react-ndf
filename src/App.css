@@ -360,6 +360,47 @@ p {
 
 /* End Projects section */
 
+/* Parent Review Section */
+.parent-feedback {
+	background: rgb(236, 236, 236);
+	padding-top: 40px;
+	height: 800px;
+}
+
+.parent-feedback .parent-title {
+	text-align: center;
+	font-size: 28px;
+	margin: 0 auto 20px;
+	letter-spacing: 3px;
+	font-weight: 400px;
+}
+
+.slider-container {
+	width: 100%;
+	margin: 20px auto 0;
+	/* height: 300p; */
+}
+
+.review-card {
+	width: 60%;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	padding: 10px;
+	backdrop-filter: blur(40px);
+}
+
+.review-card p{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.slider-container .slider {
+	height: 600px;
+}
+
+/* End Parent Review Section */
+
 /* Donor Section */
 #donor .donor {
 	flex-direction: column-reverse;
@@ -568,6 +609,13 @@ p {
 	/* Project */
 	
 	/* End Project */
+	.parent-feedback {
+		height: auto;
+	}
+
+	.slider-container {
+		width: 80%;
+	}
 
 	/* Donor */
 	#donor .donor {

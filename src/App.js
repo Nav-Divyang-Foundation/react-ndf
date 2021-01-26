@@ -62,6 +62,46 @@ function App() {
           <Route exact path="/gallery" component={PhotoGallery} />
         </Switch>
       </Router>
+      <section id="footer">
+        <div className="footer container">
+
+          <div className="social-icon">
+            <div className="social-item">
+              <a href="https://www.facebook.com/pg/Nav-Divyang-Foundation-108355544315717/posts/"><img
+                  src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+            </div>
+            <div className="social-item">
+              <a href="https://instagram.com/nav_divyang_foundation_2017?igshid=159p3ndgf95vt"><img
+                  src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+            </div>
+            <div className="social-item">
+              <a href="https://www.linkedin.com/in/nav-divyang-foundation-1012b21b5"><img
+                  src="https://img.icons8.com/bubbles/50/000000/linkedin.png" /></a>
+            </div>
+          </div>
+          <p style={{textAlign: 'center'}}>Do Follow us on our Social Media Handles</p>
+          <a
+            style={{textDecoration: "none", color: "wheat", fontSize: "20px"}}
+            href="https://navdivyangfoundation.in">https://navdivyangfoundation.in</a>
+          <div style={{margin: "20px"}}>
+            <div style={{textAlign: "center"}}>
+              <p style={{fontSize: "25px"}}>LEGAL STATUS: </p>
+            </div>
+            <div style={{display: "flex"}}>
+              <div style={{margin: "10px"}}>
+                <p style={{fontSize: "12px"}}>Registered as ‘NAV DIVYANG FOUNDATION</p>
+                <p style={{fontSize: "12px"}}>Registered under the Bombay Public Trust Act, 1950</p>
+                <p style={{fontSize: "12px"}}>Under Registration Number E - 33219 (Mumbai) dated 08/06/2017</p>
+              </div>
+              <div style={{margin: "10px"}}>
+                <p style={{fontSize: "12px"}}>PAN number -: AACTN7203Q</p>
+                <p style={{fontSize: "12px"}}>12 A - : On process</p>
+                <p style={{fontSize: "12px"}}>80G number -: On process</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -13,6 +13,7 @@ import kid2 from "./images/kid2.jpeg"
 import kid3 from "./images/kid3.jpeg";
 import kid4 from "./images/kid4.jpeg";
 import programManager from "./images/Akshata salgaonkar Program manager.jpeg";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -21,6 +22,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 function Home() {
   const [more, setMore] = useState(false);
@@ -177,7 +180,7 @@ function Home() {
         </div>
         <div className="collage-2">
           <img src={collage2} alt="diya painting at nav divyang foundation" />
-          <h2 style={{paddingBottom: "20px"}}>Diya Painting</h2>
+          <h2 style={{paddingBottom: "20px", marginBottom: '0'}}>Diya Painting</h2>
         </div>
       </section>
       <section id="projects">
@@ -291,6 +294,35 @@ function Home() {
           </div>
         </div>
       </section>
+      <section>
+        <div className="parent-feedback">
+          <p className="parent-title">PARENT REVIEWS</p>
+          <div className="slider-container">
+            <Slider classNames="main-slider">
+              <div>
+                <div className="review-card">
+                  <p>Appreciate the relentless efforts, center's staff is putting in keeping the therapies on through online medium and raising funds for the center even in this pandemic situation.</p>
+                  <p>The center's teachers are also very patient and work very dedicatedly , systematically towards the goals. The goals and activities are communicated in advance so that the child and parent are prepared with materials and ready  for the activity. ( Online )</p>
+                  <p>We found that our child took time to adapt to this new medium but later on settled. Though there were ups and downs, the teachers and therapist were kind and patient to change and modify the timings as per the child's temperament.  We are thankful to the center as our child's learning is kept steady.</p>
+                  <p style={{textAlign: 'right'}}>- parent</p>
+                </div>
+              </div>
+              <div>
+                <div className="review-card">
+                  <p>My child is studying in nav divyang foundation and I must say it is a very good Center.The teachers are very caring,warm, supportive and patient.They  inculcate new activities and  therapies which is different for each child based according to their needs.I would recommend Nav divyang  foundation center for children who have special needs.</p>
+                  <p style={{textAlign: 'right'}}>- parent</p>
+                </div>
+              </div>
+              <div>
+                <div className="review-card">
+                  <p>Our experience in this nav divyang center is good, all teachers are very humble n corporative in center..my son has Learned many things in the center.Therapist are very caring. Also, Gopalji is also very supportive in school.</p>
+                  <p style={{textAlign: 'right'}}>- parent</p>
+                </div>
+              </div>
+            </Slider>
+          </div>
+        </div>
+      </section>
       <section id="donor">
         <div className="donor">
           <div>
@@ -345,46 +377,6 @@ function Home() {
                   (West), Mumbai 64.<br/>
                   Location / Centre address -Kandivali & Lower Parel
                 </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="footer">
-        <div className="footer container">
-
-          <div className="social-icon">
-            <div className="social-item">
-              <a href="https://www.facebook.com/pg/Nav-Divyang-Foundation-108355544315717/posts/"><img
-                  src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-            </div>
-            <div className="social-item">
-              <a href="https://instagram.com/nav_divyang_foundation_2017?igshid=159p3ndgf95vt"><img
-                  src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-            </div>
-            <div className="social-item">
-              <a href="https://www.linkedin.com/in/nav-divyang-foundation-1012b21b5"><img
-                  src="https://img.icons8.com/bubbles/50/000000/linkedin.png" /></a>
-            </div>
-          </div>
-          <p style={{textAlign: 'center'}}>Do Follow us on our Social Media Handles</p>
-          <a
-            style={{textDecoration: "none", color: "wheat", fontSize: "20px"}}
-            href="https://navdivyangfoundation.in">https://navdivyangfoundation.in</a>
-          <div style={{margin: "20px"}}>
-            <div style={{textAlign: "center"}}>
-              <p style={{fontSize: "25px"}}>LEGAL STATUS: </p>
-            </div>
-            <div style={{display: "flex"}}>
-              <div style={{margin: "10px"}}>
-                <p style={{fontSize: "12px"}}>Registered as ‘NAV DIVYANG FOUNDATION</p>
-                <p style={{fontSize: "12px"}}>Registered under the Bombay Public Trust Act, 1950</p>
-                <p style={{fontSize: "12px"}}>Under Registration Number E - 33219 (Mumbai) dated 08/06/2017</p>
-              </div>
-              <div style={{margin: "10px"}}>
-                <p style={{fontSize: "12px"}}>PAN number -: AACTN7203Q</p>
-                <p style={{fontSize: "12px"}}>12 A - : On process</p>
-                <p style={{fontSize: "12px"}}>80G number -: On process</p>
               </div>
             </div>
           </div>

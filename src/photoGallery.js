@@ -63,7 +63,7 @@ export default function PhotoGallery() {
 function PhotoCard({img, desc}) {
     return(
         <div className="photo-card">
-            <div style={{width: '100%', borderRadius: '10px'}}><img style={{borderRadius: '10px 10px 0 0'}} src={img} /></div>
+            <div style={{width: '100%', borderRadius: '10px'}}><img style={{borderRadius: '10px 10px 0 0'}} alt={desc} src={img} /></div>
             <div className="description-div">
                 <p className="photo-description">{desc}</p>
             </div>
