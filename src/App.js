@@ -30,10 +30,10 @@ function App() {
                   <li className="mobileview"><a href="/#ourteam"  data-after="Donor">Our Team</a></li>
                   <li className="mobileview-hide"><a href="/#hero"  data-after="Work">Our Work</a></li>
                   <li className="mobileview-hide"><a href="/#projects"  data-after="Projects">Programme and Services</a></li>
+                  <li className="mobileview-hide"><Link to="/gallery">Photo Gallery</Link></li>
                   <li className="mobileview"><a href="/#contact"  data-after="Contact">Contact Us</a></li>
                   <li className="mobileview" id={window.innerWidth > 768 ? "desktopview-hide" : "" }><a onClick={() => {setMore(true)}} data-after="Contact"><FontAwesomeIcon icon={faEllipsisH} style={{fontSize: '25px', margin: '0'}} /></a></li>
                 </ul>
-                
               </div>
             </div>
           </div>

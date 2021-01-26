@@ -2,8 +2,31 @@
     text-align: center;
 }
 
+.photo-card {
+    width: 22%;
+    margin: 20px 1.5%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
 @media only screen and (max-width: 720px) {
     .photo-gallery-container {
         text-align: center;
     }   
+
+    .photo-card {
+        width: 45%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 0 5px grey;
+    }
+
+    .photo-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .description-div {
+        padding: 2px;
+    }
 }
