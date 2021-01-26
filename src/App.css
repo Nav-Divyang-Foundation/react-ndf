@@ -356,9 +356,31 @@ p {
 
 .projects ol li {
 	margin: 20px 0;
+	font-size: 12px;
+}
+
+.projects ol li p {
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 400;
 }
 
 /* End Projects section */
+
+.photo-gallery-section p {
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.photo-gallery-button {
+	padding: 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(40px);
+	color: white;
+}
 
 /* Parent Review Section */
 .parent-feedback {
@@ -418,7 +440,15 @@ p {
 }
 
 .donor-details p {
-	font-weight: 1000;
+	font-weight: 300;
+}
+
+#donor .sub-heading {
+	font-size: 24px;
+}
+
+#donor h2 {
+	font-size: 20px;
 }
 
 /* End Donor Section */
@@ -555,6 +585,10 @@ p {
 		margin: 5px 50px;
 	}
 
+	.nav-list ul li { 
+		font-size: 20px;
+	}
+
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
@@ -571,6 +605,17 @@ p {
 	}
 
 	/* End Future  */
+
+	.projects ol li {
+		margin: 20px 0;
+		font-size: 18px;
+	}
+	
+	.projects ol li p {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+	}
 
 	.collage {
 		width: 40%;
@@ -609,6 +654,22 @@ p {
 	/* Project */
 	
 	/* End Project */
+
+	.photo-gallery-section p {
+		font-size: 32px;
+		letter-spacing: 2px;
+	}
+	
+	.photo-gallery-button {
+		padding: 20px;
+		border: none;
+		border-radius: 20px;
+		font-size: 20px;
+		background: rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(40px);
+		color: white;
+	}
+
 	.parent-feedback {
 		height: auto;
 	}
@@ -617,9 +678,17 @@ p {
 		width: 80%;
 	}
 
+	.slider-container .slider {
+		height: 400px;
+	}
+
 	/* Donor */
 	#donor .donor {
 		flex-direction: row;
+	}
+
+	#donor .sub-heading {
+		font-size: 26px;
 	}
 	
 	/* End Donor */

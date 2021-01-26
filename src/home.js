@@ -15,18 +15,16 @@ import kid4 from "./images/kid4.jpeg";
 import programManager from "./images/Akshata salgaonkar Program manager.jpeg";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faEllipsisH } from '@fortawesome/free-solid-svg-icons';
+import { faTimes, faEllipsisH, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  useHistory
 } from "react-router-dom";
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
 function Home() {
   const [more, setMore] = useState(false);
+  const history = useHistory();
   return (
     <div>
       <section id="homes">
@@ -226,22 +224,22 @@ function Home() {
             <h2>OUR SERVICES</h2>
             <ol>
               <li>
-                <h3>Mothers Toddlers Group (0- 3 years)-</h3>
+                <h3>Mothers Toddlers Group (0- 3 years)</h3>
                 <p>A major goal of this service is to provide awareness to the caregivers and integrate them into the
                   initiation of building their children’s abilities.</p>
               </li>
               <li>
-                <h3>Early Intervention (0 - 6 years)-</h3>
+                <h3>Early Intervention (0 - 6 years)</h3>
                 <p>This helps support the child in starting to function on her/his own, as per their abilities, without
                   constant presence of caregivers.</p>
               </li>
               <li>
-                <h3>Special Education-</h3>
+                <h3>Special Education</h3>
                 <p>Special educators practises a manner of educating students in a way that addresses their individual
                   differences and special needs.</p>
               </li>
               <li>
-                <h3>Remedial-</h3>
+                <h3>Remedial</h3>
                 <p>Remedial educators basically assist students in order to achieve expected competencies in case of
                   academic skills such as numeracy and literacy.</p>
               </li>
@@ -294,7 +292,13 @@ function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="photo-gallery-section">
+        <div style={{textAlign: 'center', padding: '100px 0', backgroundImage: 'linear-gradient(60deg, rgb(255, 208, 0), red 100%)'}}>
+          <p>See our activities and exercises</p>
+          <button onClick={() => {history.push('/gallery')}} className="photo-gallery-button">Go to photo gallery <FontAwesomeIcon icon={faArrowRight} /> </button>
+        </div>
+      </section>
+      <section id="parent">
         <div className="parent-feedback">
           <p className="parent-title">PARENT REVIEWS</p>
           <div className="slider-container">
@@ -326,7 +330,7 @@ function Home() {
       <section id="donor">
         <div className="donor">
           <div>
-            <h1 className="sub-heading" style={{fontSize: "35px"}}> OUR DONORS</h1>
+            <h1 className="sub-heading"> OUR DONORS</h1>
             <h2>Kindly Donate to us at:</h2><br/>
             <div className="donor-details">
               <p>Account Name – Nav Divyang Foundation</p>

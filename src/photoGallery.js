@@ -31,7 +31,8 @@ export default function PhotoGallery() {
 
     return (
         <div className="photo-gallery-container">
-            <h1>Photo Gallery</h1>
+            <p className="photo-gallery-title">Nav Divyang Foundation</p>
+            <p className="photo-gallery-subtitle">Photo Gallery</p>
             <div style={{display: 'flex', flexWrap: 'wrap', alignItems: 'self-end'}}>
                 <PhotoCard img={diwali1} desc={"Diwali art & craft and understanding festival of Diwali"} />
                 <PhotoCard img={random1} desc="Art & Craft"/>

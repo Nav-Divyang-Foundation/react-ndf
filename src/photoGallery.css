@@ -9,6 +9,18 @@
     box-shadow: 0 0 5px grey;
 }
 
+.photo-gallery-title {
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.photo-gallery-subtitle {
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
 @media only screen and (max-width: 720px) {
     .photo-gallery-container {
         text-align: center;
@@ -28,5 +40,17 @@
 
     .description-div {
         padding: 2px;
+    }
+
+    .photo-gallery-title {
+        font-size: 28px;
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+    
+    .photo-gallery-subtitle {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 0;
     }
 }

@@ -31,8 +31,9 @@ function App() {
                   <li className="mobileview-hide"><a href="/#hero"  data-after="Work">Our Work</a></li>
                   <li className="mobileview-hide"><a href="/#projects"  data-after="Projects">Programme and Services</a></li>
                   <li className="mobileview-hide"><Link to="/gallery">Photo Gallery</Link></li>
+                  <li className="mobileview-hide"><a href="/#parent">Parent Reviews</a></li>
                   <li className="mobileview"><a href="/#contact"  data-after="Contact">Contact Us</a></li>
-                  <li className="mobileview" id={window.innerWidth > 768 ? "desktopview-hide" : "" }><a onClick={() => {setMore(true)}} data-after="Contact"><FontAwesomeIcon icon={faEllipsisH} style={{fontSize: '25px', margin: '0'}} /></a></li>
+                  <li className="mobileview" id={window.innerWidth < 1208 ? "" : "desktopview-hide" }><a onClick={() => {setMore(true)}} data-after="Contact"><FontAwesomeIcon icon={faEllipsisH} style={{fontSize: '25px', margin: '0'}} /></a></li>
                 </ul>
               </div>
             </div>
@@ -50,6 +51,7 @@ function App() {
                   <li onClick={() => {setMore(false)}}><a href="/#hero">Our Work</a></li>
                   <li onClick={() => {setMore(false)}}><a href="/#projects">Programme and Services</a></li>
                   <li onClick={() => {setMore(false);}}><Link to="/gallery">Photo Gallery</Link></li>
+                  <li onClick={() => {setMore(false);}}><a href="/#parent">Parent Reviews</a></li>
                   <li onClick={() => {setMore(false)}}><a href="/#contact">Contact Us</a></li>
                 </ul>
               </div>
